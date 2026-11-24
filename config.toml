@@ -1,0 +1,12 @@
+# Yojana Mitra colours: emerald buttons, ivory background (more styling in the CSS in app.py)
+[theme]
+base = "light"
+primaryColor = "#047857"
+backgroundColor = "#FFFCF4"
+secondaryBackgroundColor = "#F4F1EA"
+textColor = "#1F2933"
+font = "sans serif"
+
+[client]
+# Hide developer options (Deploy, rerun, settings) from the toolbar
+toolbarMode = "viewer"

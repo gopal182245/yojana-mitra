@@ -1,0 +1,206 @@
+[
+  {
+    "id": "gruha_lakshmi",
+    "name": "Gruha Lakshmi",
+    "name_kn": "ಗೃಹ ಲಕ್ಷ್ಮಿ",
+    "benefits": "Rs. 2,000 per month to the woman head of the family.",
+    "benefits_kn": "ಕುಟುಂಬದ ಯಜಮಾನಿಗೆ ತಿಂಗಳಿಗೆ ರೂ. 2,000.",
+    "benefit_short": "₹2,000 / month",
+    "benefit_short_kn": "ತಿಂಗಳಿಗೆ ₹2,000",
+    "rules": [
+      {"field": "gender", "op": "equals", "value": "female",
+       "en": "Applicant is a woman", "kn": "ಅರ್ಜಿದಾರರು ಮಹಿಳೆ"},
+      {"field": "ration_card", "op": "in", "value": ["AAY", "BPL", "APL"],
+       "en": "Has an AAY, BPL or APL ration card", "kn": "ಅಂತ್ಯೋದಯ, ಬಿಪಿಎಲ್ ಅಥವಾ ಎಪಿಎಲ್ ರೇಷನ್ ಕಾರ್ಡ್ ಇದೆ"},
+      {"field": "is_family_head", "op": "is_true",
+       "en": "Is the head of the family on the ration card", "kn": "ರೇಷನ್ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಕುಟುಂಬದ ಯಜಮಾನಿ"},
+      {"field": "pays_income_tax_or_gst", "op": "is_false",
+       "en": "She and her husband do not pay income tax or GST", "kn": "ಅವರು ಮತ್ತು ಪತಿ ಆದಾಯ ತೆರಿಗೆ / ಜಿಎಸ್‌ಟಿ ಪಾವತಿಸುವುದಿಲ್ಲ"}
+    ],
+    "other_conditions": [
+      {"en": "Not a government employee or government pensioner", "kn": "ಸರ್ಕಾರಿ ನೌಕರರು ಅಥವಾ ಸರ್ಕಾರಿ ಪಿಂಚಣಿದಾರರಲ್ಲ"},
+      {"en": "Only one woman per family can get it", "kn": "ಒಂದು ಕುಟುಂಬಕ್ಕೆ ಒಬ್ಬ ಮಹಿಳೆಗೆ ಮಾತ್ರ"}
+    ],
+    "documents": ["Aadhaar card", "Ration card", "Bank passbook (linked to Aadhaar)", "Mobile number linked to Aadhaar", "Husband's Aadhaar card (if married)"],
+    "documents_kn": ["ಆಧಾರ್ ಕಾರ್ಡ್", "ರೇಷನ್ ಕಾರ್ಡ್", "ಬ್ಯಾಂಕ್ ಪಾಸ್‌ಬುಕ್ (ಆಧಾರ್ ಜೋಡಣೆ)", "ಆಧಾರ್‌ಗೆ ಜೋಡಿಸಿದ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ", "ಪತಿಯ ಆಧಾರ್ ಕಾರ್ಡ್ (ವಿವಾಹಿತರಾಗಿದ್ದರೆ)"],
+    "how_to_apply": "Apply on the Seva Sindhu guarantee schemes portal, or at a Grama One / Karnataka One / Bangalore One centre.",
+    "how_to_apply_kn": "ಸೇವಾ ಸಿಂಧು ಗ್ಯಾರಂಟಿ ಯೋಜನೆಗಳ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ, ಅಥವಾ ಗ್ರಾಮ ಒನ್ / ಕರ್ನಾಟಕ ಒನ್ / ಬೆಂಗಳೂರು ಒನ್ ಕೇಂದ್ರದಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+    "apply_link": "https://sevasindhugs.karnataka.gov.in",
+    "source_link": "https://sevasindhugs.karnataka.gov.in",
+    "research_links": [
+      "https://en.vikaspedia.in/viewcontent/schemesall/state-specific-schemes/welfare-schemes-of-karnataka/gruha-lakshmi-scheme-karnataka?lgn=en",
+      "https://studycafe.in/gst-and-it-taxpayers-cant-avail-gruha-lakshmi-scheme-benefits-in-karnataka-228016.html"
+    ],
+    "last_verified": null
+  },
+  {
+    "id": "anna_bhagya",
+    "name": "Anna Bhagya",
+    "name_kn": "ಅನ್ನ ಭಾಗ್ಯ",
+    "benefits": "Free rice every month for each family member (check the official site for the current quantity).",
+    "benefits_kn": "ಕುಟುಂಬದ ಪ್ರತಿ ಸದಸ್ಯರಿಗೆ ಪ್ರತಿ ತಿಂಗಳು ಉಚಿತ ಅಕ್ಕಿ (ಈಗಿನ ಪ್ರಮಾಣಕ್ಕೆ ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್ ನೋಡಿ).",
+    "benefit_short": "Free rice every month",
+    "benefit_short_kn": "ಪ್ರತಿ ತಿಂಗಳು ಉಚಿತ ಅಕ್ಕಿ",
+    "rules": [
+      {"field": "ration_card", "op": "in", "value": ["BPL", "AAY"],
+       "en": "Has a BPL or Antyodaya (AAY) ration card", "kn": "ಬಿಪಿಎಲ್ ಅಥವಾ ಅಂತ್ಯೋದಯ ರೇಷನ್ ಕಾರ್ಡ್ ಇದೆ"}
+    ],
+    "other_conditions": [],
+    "documents": ["Ration card", "Aadhaar card of all family members"],
+    "documents_kn": ["ರೇಷನ್ ಕಾರ್ಡ್", "ಕುಟುಂಬದ ಎಲ್ಲ ಸದಸ್ಯರ ಆಧಾರ್ ಕಾರ್ಡ್"],
+    "how_to_apply": "No separate application if you already have a BPL/AAY card - collect at your ration shop. To get a new card, apply on the Ahara (food department) portal.",
+    "how_to_apply_kn": "ಬಿಪಿಎಲ್/ಅಂತ್ಯೋದಯ ಕಾರ್ಡ್ ಇದ್ದರೆ ಬೇರೆ ಅರ್ಜಿ ಬೇಕಿಲ್ಲ - ನ್ಯಾಯಬೆಲೆ ಅಂಗಡಿಯಲ್ಲಿ ಪಡೆಯಿರಿ. ಹೊಸ ಕಾರ್ಡ್‌ಗೆ ಆಹಾರ ಇಲಾಖೆ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+    "apply_link": "https://ahara.kar.nic.in",
+    "source_link": "https://ahara.kar.nic.in",
+    "research_links": [],
+    "last_verified": null
+  },
+  {
+    "id": "gruha_jyothi",
+    "name": "Gruha Jyothi",
+    "name_kn": "ಗೃಹ ಜ್ಯೋತಿ",
+    "benefits": "Free electricity for homes up to 200 units a month (based on your average use).",
+    "benefits_kn": "ಮನೆಗಳಿಗೆ ತಿಂಗಳಿಗೆ 200 ಯೂನಿಟ್‌ವರೆಗೆ ಉಚಿತ ವಿದ್ಯುತ್ (ನಿಮ್ಮ ಸರಾಸರಿ ಬಳಕೆ ಆಧರಿಸಿ).",
+    "benefit_short": "Up to 200 units free electricity",
+    "benefit_short_kn": "200 ಯೂನಿಟ್‌ವರೆಗೆ ಉಚಿತ ವಿದ್ಯುತ್",
+    "rules": [
+      {"field": "has_home_electricity", "op": "is_true",
+       "en": "Has a home (residential) electricity connection", "kn": "ಮನೆ ಬಳಕೆಯ ವಿದ್ಯುತ್ ಸಂಪರ್ಕ ಇದೆ"}
+    ],
+    "other_conditions": [
+      {"en": "Monthly usage limit and how the free units are calculated", "kn": "ಮಾಸಿಕ ಬಳಕೆ ಮಿತಿ ಮತ್ತು ಉಚಿತ ಯೂನಿಟ್ ಲೆಕ್ಕ"}
+    ],
+    "documents": ["Aadhaar card", "Electricity bill (customer ID / account ID)", "Rental agreement (if tenant)"],
+    "documents_kn": ["ಆಧಾರ್ ಕಾರ್ಡ್", "ವಿದ್ಯುತ್ ಬಿಲ್ (ಗ್ರಾಹಕ ಸಂಖ್ಯೆ)", "ಬಾಡಿಗೆ ಒಪ್ಪಂದ (ಬಾಡಿಗೆದಾರರಾಗಿದ್ದರೆ)"],
+    "how_to_apply": "Apply on the Seva Sindhu guarantee schemes portal, or at a Grama One / Karnataka One / Bangalore One centre.",
+    "how_to_apply_kn": "ಸೇವಾ ಸಿಂಧು ಗ್ಯಾರಂಟಿ ಯೋಜನೆಗಳ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ, ಅಥವಾ ಗ್ರಾಮ ಒನ್ / ಕರ್ನಾಟಕ ಒನ್ / ಬೆಂಗಳೂರು ಒನ್ ಕೇಂದ್ರದಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+    "apply_link": "https://sevasindhugs.karnataka.gov.in",
+    "source_link": "https://sevasindhugs.karnataka.gov.in",
+    "research_links": [],
+    "last_verified": null
+  },
+  {
+    "id": "yuva_nidhi",
+    "name": "Yuva Nidhi",
+    "name_kn": "ಯುವ ನಿಧಿ",
+    "benefits": "Unemployment allowance: Rs. 3,000/month for graduates, Rs. 1,500/month for diploma holders (reported as up to 2 years).",
+    "benefits_kn": "ನಿರುದ್ಯೋಗ ಭತ್ಯೆ: ಪದವೀಧರರಿಗೆ ತಿಂಗಳಿಗೆ ರೂ. 3,000, ಡಿಪ್ಲೊಮಾ ಪಡೆದವರಿಗೆ ರೂ. 1,500 (2 ವರ್ಷದವರೆಗೆ ಎಂದು ವರದಿ).",
+    "benefit_short": "₹3,000 / month (graduates)",
+    "benefit_short_kn": "ತಿಂಗಳಿಗೆ ₹3,000 (ಪದವೀಧರರು)",
+    "rules": [
+      {"field": "qualification", "op": "in", "value": ["degree", "diploma"],
+       "en": "Has a degree or a diploma", "kn": "ಪದವಿ ಅಥವಾ ಡಿಪ್ಲೊಮಾ ಪಡೆದಿದ್ದಾರೆ"},
+      {"field": "year_of_passing", "op": "in", "value": [2023], "needs_official_check": true,
+       "en": "Passed in an eligible year (our sources only confirm 2023 for the first batch)",
+       "kn": "ಅರ್ಹ ವರ್ಷದಲ್ಲಿ ಉತ್ತೀರ್ಣ (ನಮ್ಮ ಮಾಹಿತಿ ಮೊದಲ ತಂಡಕ್ಕೆ 2023 ಮಾತ್ರ ಖಚಿತಪಡಿಸುತ್ತದೆ)"},
+      {"field": "months_unemployed", "op": "min", "value": 6,
+       "en": "Without a job for at least 6 months (180 days) after passing", "kn": "ಉತ್ತೀರ್ಣರಾದ ನಂತರ ಕನಿಷ್ಠ 6 ತಿಂಗಳು (180 ದಿನ) ಉದ್ಯೋಗವಿಲ್ಲ"},
+      {"field": "employment_status", "op": "equals", "value": "unemployed",
+       "en": "Not employed, not self-employed and not in higher studies", "kn": "ಉದ್ಯೋಗ, ಸ್ವಂತ ಉದ್ಯೋಗ ಅಥವಾ ಉನ್ನತ ವ್ಯಾಸಂಗದಲ್ಲಿ ಇಲ್ಲ"}
+    ],
+    "other_conditions": [
+      {"en": "Karnataka domicile (reported as at least 6 years)", "kn": "ಕರ್ನಾಟಕದ ನಿವಾಸಿ (ಕನಿಷ್ಠ 6 ವರ್ಷ ಎಂದು ವರದಿ)"},
+      {"en": "Aadhaar must be linked to your mobile number", "kn": "ಆಧಾರ್ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಗೆ ಜೋಡಣೆ ಆಗಿರಬೇಕು"}
+    ],
+    "documents": ["Aadhaar card", "Degree / diploma certificate and marks card", "Karnataka domicile proof", "Bank passbook"],
+    "documents_kn": ["ಆಧಾರ್ ಕಾರ್ಡ್", "ಪದವಿ / ಡಿಪ್ಲೊಮಾ ಪ್ರಮಾಣಪತ್ರ ಮತ್ತು ಅಂಕಪಟ್ಟಿ", "ಕರ್ನಾಟಕ ನಿವಾಸ ಪ್ರಮಾಣಪತ್ರ", "ಬ್ಯಾಂಕ್ ಪಾಸ್‌ಬುಕ್"],
+    "how_to_apply": "Register on the Seva Sindhu guarantee schemes portal. You can register before 180 days, but payment starts only after 180 days without a job.",
+    "how_to_apply_kn": "ಸೇವಾ ಸಿಂಧು ಗ್ಯಾರಂಟಿ ಯೋಜನೆಗಳ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ನೋಂದಾಯಿಸಿ. 180 ದಿನಕ್ಕೂ ಮೊದಲು ನೋಂದಾಯಿಸಬಹುದು, ಆದರೆ ಹಣ 180 ದಿನ ಉದ್ಯೋಗವಿಲ್ಲದ ನಂತರವೇ ಸಿಗುತ್ತದೆ.",
+    "apply_link": "https://sevasindhugs.karnataka.gov.in",
+    "source_link": "https://sevasindhugs.karnataka.gov.in",
+    "research_links": [
+      "https://bcu.ac.in/documents/Yuvanidhi/Guidelines%20for%20YUVANIDHI%20English.pdf",
+      "https://en.vikaspedia.in/viewcontent/schemesall/state-specific-schemes/welfare-schemes-of-karnataka/yuva-nidhi-scheme-karnataka?lgn=en"
+    ],
+    "last_verified": null
+  },
+  {
+    "id": "sandhya_suraksha",
+    "name": "Sandhya Suraksha Yojane",
+    "name_kn": "ಸಂಧ್ಯಾ ಸುರಕ್ಷಾ ಯೋಜನೆ",
+    "benefits": "Monthly old-age pension (sources differ on the amount: Rs. 1,000-1,200; confirm on the official site).",
+    "benefits_kn": "ಮಾಸಿಕ ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ (ಮೊತ್ತದ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇರೆ ಬೇರೆ: ರೂ. 1,000-1,200; ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಖಚಿತಪಡಿಸಿ).",
+    "benefit_short": "Monthly old-age pension",
+    "benefit_short_kn": "ಮಾಸಿಕ ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ",
+    "rules": [
+      {"field": "age", "op": "min", "value": 65,
+       "en": "Age 65 or above", "kn": "ವಯಸ್ಸು 65 ಅಥವಾ ಹೆಚ್ಚು"},
+      {"field": "annual_income", "op": "max", "value": 20000, "needs_official_check": true,
+       "en": "Family income up to Rs. 20,000 a year (limit may have been raised)", "kn": "ಕುಟುಂಬದ ವಾರ್ಷಿಕ ಆದಾಯ ರೂ. 20,000 ವರೆಗೆ (ಮಿತಿ ಹೆಚ್ಚಾಗಿರಬಹುದು)"}
+    ],
+    "other_conditions": [
+      {"en": "Not getting any other pension (old-age, widow, disability, or private)", "kn": "ಬೇರೆ ಯಾವುದೇ ಪಿಂಚಣಿ ಪಡೆಯುತ್ತಿಲ್ಲ (ವೃದ್ಧಾಪ್ಯ, ವಿಧವಾ, ಅಂಗವಿಕಲ ಅಥವಾ ಖಾಸಗಿ)"}
+    ],
+    "documents": ["Aadhaar card", "Age proof", "Income certificate", "Bank passbook"],
+    "documents_kn": ["ಆಧಾರ್ ಕಾರ್ಡ್", "ವಯಸ್ಸಿನ ದಾಖಲೆ", "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ", "ಬ್ಯಾಂಕ್ ಪಾಸ್‌ಬುಕ್"],
+    "how_to_apply": "Apply on Seva Sindhu or at your taluk office / Nadakacheri.",
+    "how_to_apply_kn": "ಸೇವಾ ಸಿಂಧುನಲ್ಲಿ ಅಥವಾ ತಾಲ್ಲೂಕು ಕಚೇರಿ / ನಾಡಕಚೇರಿಯಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+    "apply_link": "https://sevasindhu.karnataka.gov.in",
+    "source_link": "https://sevasindhu.karnataka.gov.in",
+    "research_links": [
+      "https://www.legitquest.com/act/karnataka-sandhya-suraksha-scheme-rules/EB6B",
+      "https://newsable.asianetnews.com/india/karnataka-hikes-social-security-pension-income-limit-to-rs-1-20-lakh-articleshow-0pg2ol6"
+    ],
+    "last_verified": null
+  },
+  {
+    "id": "widow_pension",
+    "name": "Destitute Widow Pension",
+    "name_kn": "ನಿರ್ಗತಿಕ ವಿಧವಾ ವೇತನ",
+    "benefits": "Monthly pension for widows (sources differ on the amount; confirm on the official site).",
+    "benefits_kn": "ವಿಧವೆಯರಿಗೆ ಮಾಸಿಕ ಪಿಂಚಣಿ (ಮೊತ್ತದ ಬಗ್ಗೆ ಮಾಹಿತಿ ಬೇರೆ ಬೇರೆ; ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ಖಚಿತಪಡಿಸಿ).",
+    "benefit_short": "Monthly widow pension",
+    "benefit_short_kn": "ಮಾಸಿಕ ವಿಧವಾ ಪಿಂಚಣಿ",
+    "rules": [
+      {"field": "gender", "op": "equals", "value": "female",
+       "en": "Applicant is a woman", "kn": "ಅರ್ಜಿದಾರರು ಮಹಿಳೆ"},
+      {"field": "marital_status", "op": "equals", "value": "widow",
+       "en": "Applicant is a widow", "kn": "ಅರ್ಜಿದಾರರು ವಿಧವೆ"},
+      {"field": "age", "op": "min", "value": 18,
+       "en": "Age 18 or above", "kn": "ವಯಸ್ಸು 18 ಅಥವಾ ಹೆಚ್ಚು"},
+      {"field": "age", "op": "max", "value": 57, "needs_official_check": true,
+       "en": "Below the upper age limit (one source says below 58; older widows may get old-age pension instead)",
+       "kn": "ಗರಿಷ್ಠ ವಯೋಮಿತಿಯೊಳಗೆ (ಒಂದು ಮೂಲದ ಪ್ರಕಾರ 58ಕ್ಕಿಂತ ಕಡಿಮೆ; ಹಿರಿಯರಿಗೆ ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ ಸಿಗಬಹುದು)"},
+      {"field": "annual_income", "op": "max", "value": 120000, "needs_official_check": true,
+       "en": "Family income up to Rs. 1,20,000 a year (sources say Rs. 1 lakh - 1.2 lakh)", "kn": "ಕುಟುಂಬದ ವಾರ್ಷಿಕ ಆದಾಯ ರೂ. 1,20,000 ವರೆಗೆ (ಮೂಲಗಳ ಪ್ರಕಾರ ರೂ. 1-1.2 ಲಕ್ಷ)"}
+    ],
+    "other_conditions": [
+      {"en": "Not getting any other pension", "kn": "ಬೇರೆ ಯಾವುದೇ ಪಿಂಚಣಿ ಪಡೆಯುತ್ತಿಲ್ಲ"}
+    ],
+    "documents": ["Aadhaar card", "Husband's death certificate", "Income certificate", "Age proof", "Bank passbook"],
+    "documents_kn": ["ಆಧಾರ್ ಕಾರ್ಡ್", "ಪತಿಯ ಮರಣ ಪ್ರಮಾಣಪತ್ರ", "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ", "ವಯಸ್ಸಿನ ದಾಖಲೆ", "ಬ್ಯಾಂಕ್ ಪಾಸ್‌ಬುಕ್"],
+    "how_to_apply": "Apply on Seva Sindhu or at your taluk office / Nadakacheri.",
+    "how_to_apply_kn": "ಸೇವಾ ಸಿಂಧುನಲ್ಲಿ ಅಥವಾ ತಾಲ್ಲೂಕು ಕಚೇರಿ / ನಾಡಕಚೇರಿಯಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+    "apply_link": "https://sevasindhu.karnataka.gov.in",
+    "source_link": "https://sevasindhu.karnataka.gov.in",
+    "research_links": [
+      "https://wikiprocedure.com/index.php/Karnataka_-_Apply_for_Widow_Pension",
+      "https://newsable.asianetnews.com/india/karnataka-hikes-social-security-pension-income-limit-to-rs-1-20-lakh-articleshow-0pg2ol6"
+    ],
+    "last_verified": null
+  },
+  {
+    "id": "krishi_bhagya",
+    "name": "Krishi Bhagya",
+    "name_kn": "ಕೃಷಿ ಭಾಗ್ಯ",
+    "benefits": "Subsidy for farm ponds, pumps and drip/sprinkler irrigation (check the official site for current rates).",
+    "benefits_kn": "ಕೃಷಿ ಹೊಂಡ, ಪಂಪ್ ಮತ್ತು ಹನಿ/ತುಂತುರು ನೀರಾವರಿಗೆ ಸಹಾಯಧನ (ಈಗಿನ ದರಕ್ಕೆ ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್ ನೋಡಿ).",
+    "benefit_short": "Farm pond & irrigation subsidy",
+    "benefit_short_kn": "ಕೃಷಿ ಹೊಂಡ ಮತ್ತು ನೀರಾವರಿ ಸಹಾಯಧನ",
+    "rules": [
+      {"field": "occupation", "op": "equals", "value": "farmer",
+       "en": "Applicant is a farmer", "kn": "ಅರ್ಜಿದಾರರು ರೈತರು"}
+    ],
+    "other_conditions": [
+      {"en": "Land, area (rain-fed / dry land) and category conditions", "kn": "ಭೂಮಿ, ಪ್ರದೇಶ (ಮಳೆ ಆಶ್ರಿತ / ಒಣ ಭೂಮಿ) ಮತ್ತು ವರ್ಗದ ಷರತ್ತುಗಳು"}
+    ],
+    "documents": ["Aadhaar card", "RTC / Pahani (land record)", "Bank passbook", "Passport size photo"],
+    "documents_kn": ["ಆಧಾರ್ ಕಾರ್ಡ್", "ಆರ್‌ಟಿಸಿ / ಪಹಣಿ (ಭೂ ದಾಖಲೆ)", "ಬ್ಯಾಂಕ್ ಪಾಸ್‌ಬುಕ್", "ಪಾಸ್‌ಪೋರ್ಟ್ ಅಳತೆಯ ಫೋಟೋ"],
+    "how_to_apply": "Apply at your Raitha Samparka Kendra (farmer contact centre) or the agriculture department portal.",
+    "how_to_apply_kn": "ನಿಮ್ಮ ರೈತ ಸಂಪರ್ಕ ಕೇಂದ್ರದಲ್ಲಿ ಅಥವಾ ಕೃಷಿ ಇಲಾಖೆ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+    "apply_link": "https://raitamitra.karnataka.gov.in",
+    "source_link": "https://raitamitra.karnataka.gov.in",
+    "research_links": [],
+    "last_verified": null
+  }
+]
